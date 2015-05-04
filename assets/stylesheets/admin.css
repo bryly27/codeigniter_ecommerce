@@ -1,0 +1,48 @@
+body{
+    max-width: 1170px;
+    padding-top: 20px;
+    /*padding-bottom: -50px;*/
+    margin-bottom: ;
+     background-image: url("/assets/images/admin_bg_image.jpg");
+     background-size: 670px;
+}
+
+.login {
+text-align: center;
+}
+
+.login .box {
+margin: 0px 400px;
+padding: 10px 10px;
+float: none;
+width: 400px;
+box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+background: rgba(255, 255, 245, 0.65);
+font-size: 12px;
+}
+
+/*
+.login{
+    max-width: 300px;
+    margin: 100px 200px;
+}
+
+.login input{
+    position: relative;
+    font-size: 18px;
+    width: 300px;
+
+}
+
+.login .heading, .login .checkbox{
+    margin-bottom: 10px;
+}
+
+.login input:focus{
+    z-index: 5;
+}
+
+.login .input_label{
+    display: none;
+}*/

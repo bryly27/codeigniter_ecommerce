@@ -1,0 +1,63 @@
+#customer_info{
+    /*border: 1px solid silver;*/
+    width: 300px;
+    height: 400px;
+    margin: 60px 20px;
+    padding: 10px 10px;
+}
+
+#shipping_info:before{
+    content: 'Customer Shipping Info:';
+    color: #28a2c9;
+}
+
+#billing_info:before{
+    content: 'Customer Billing Info:';
+    color: #28a2c9;
+}
+
+#table{
+    width: 670px;
+    margin: 60px 50px;
+}
+
+#customer_info, #table{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#table_totals td{
+    color: #546abb !important;
+    border-color: #e5e5e5 #eee #eee;
+}
+
+
+#logoff{
+    padding-right: 70px;
+}
+
+#navbar ul > li > a:hover{
+    color: #31B0D5;
+}
+
+#navbar ul > #logoff > a:hover{
+    color: red;
+}
+
+#navbar ul > li > a{
+    color: #bdc4cb;
+}
+
+.table_totals .order_totals{
+    color: #31B0D5;
+    font-weight: bold;
+}
+
+.table_totals td:last-child{
+    font-weight: bold;
+}
+
+.table_totals .order_status{
+    color: #31B0D5;
+    font-weight: bold;
+}

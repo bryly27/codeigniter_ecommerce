@@ -1,0 +1,64 @@
+
+#search, #select_search{
+    width: 150px;
+    margin-top: 80px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#search{
+    width: 250px;
+}
+
+#select_search button{
+  color: white;
+  background-color: #31B0D5;
+  padding-right: -180px;
+}
+
+#select_search{
+  padding-right: 80px;
+}
+
+#logoff{
+    padding-right: 70px;
+}
+
+#table{
+    max-width: 1190px;
+    margin: 20px 20px;
+}
+
+#pagination{
+    margin-left: 300px;
+}
+
+#select_status select{
+    border: none;
+    width: 100px;
+}
+
+#select_search ul > li > a:hover{
+  background-color: #31B0D5;
+}
+
+#navbar ul > li > a:hover{
+    color: #31B0D5;
+}
+
+#navbar ul > #logoff > a:hover{
+    color: red;
+}
+
+#navbar ul > li > a{
+    color: #bdc4cb;
+}
+
+#select_status .dropdown-menu > li > a:hover{
+  color: #31B0D5;
+}
+
+
+/*#pagination ul li.disabled{
+    display: none;
+}*/
